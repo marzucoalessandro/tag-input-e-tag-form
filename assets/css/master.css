@@ -1,0 +1,75 @@
+body{
+  width: 50%;
+  margin: auto;
+}
+
+#title{
+  color: grey;
+  text-align: center;
+  }
+
+  #barra{
+    background-color: rgb(46 180 224);
+    width: 100px;
+    height: 2px;
+    border-radius: 10px;
+
+  }
+
+#container{
+  width: 700px;
+  background-color: rgba(31 179 31 / 41%);
+  height: 320px;
+
+}
+
+.stile_input{
+  padding-top: 30px;
+  text-align: center;
+
+}
+
+#nome{
+  width: 200px;
+  height: 25px;
+  border-radius: 45px;
+  border: 0px;
+  margin-right: 200px;
+
+
+
+}
+
+#mail{
+  width: 200px;
+  height: 25px;
+  border-radius: 45px;
+  border: 0px;
+
+}
+
+#griglia{
+  border-radius: 45px;
+  border: 0px;
+  width: 650px;
+  margin-top: 30px;
+}
+
+#privacy{
+  color: white;
+}
+
+#invia{
+  background-color: orange;
+  border: 0px;
+  border-radius: 45px;
+  color: white;
+  width: 80px;
+  height: 25px;
+  margin-top: 25px;
+
+}
+
+.elementi{
+  text-align: center;
+}

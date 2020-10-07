@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/master.css">
+    <title>prova di un form</title>
+  </head>
+  <body>
+
+    <!-- header della pagina -->
+    <header>
+
+      <h1 id=title>Ricevere input dell'utente - Form</h1>
+      <hr id="barra">
+      <br>
+
+    </header>
+
+    <!-- /header -->
+
+    <!-- corpo della pagina -->
+    <main>
+      <!-- contenitore del form -->
+      <div id="container">
+
+        <form action="index.html" method="get">
+
+
+          <div class=stile_input>
+
+            <input name="nome" id="nome" type="text" placeholder="Nome*"   maxlength="8" >
+
+            <input id="mail" type="email" placeholder="Email*" required>
+
+            <textarea id="griglia" name="name" rows="8" cols="90" placeholder="    Messaggio"></textarea>
+
+
+
+          </div>
+
+          <br>
+
+          <div class="elementi">
+
+            <input type="checkbox" name="quadrato" value="" required>
+            <label id="privacy">Accetto la privacy policy</label>
+            <br>
+            <input type="submit" name="submit" value="Invia" id="invia">
+
+          </div>
+
+        </form>
+
+      </div>
+
+    </main>
+    <!-- /main -->
+
+
+  </body>
+</html>
